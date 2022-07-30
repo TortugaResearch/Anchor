@@ -1,5 +1,16 @@
 ## Version 4.2
 
+### Features
+
+[#93 Cache all Attributes at the class level](https://github.com/TortugaResearch/Tortuga.Anchor/issues/93)
+
+Adds the property `ClassMetadata.Attributes`.
+
+### Bugs
+
+[#88 PropertyMetadata is not reading attributes correctly](https://github.com/TortugaResearch/Tortuga.Anchor/issues/88)
+
+There were still places that were not using Attribute.GetCustomAttributes to ensure attributes on overriden properties were being detected.
 
 ### Technical Debt
 
